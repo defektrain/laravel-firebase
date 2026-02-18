@@ -31,7 +31,6 @@ class FirebaseProject
 
     public function __construct(
         protected Factory $factory,
-        protected ?string $dynamicLinksDefaultDomain,
         protected ?string $firestoreDatabase
     ) {}
 
